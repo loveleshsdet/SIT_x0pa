@@ -1,0 +1,1080 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mar 28, 2023 09:45:31 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@addcand</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">assessment creation , reordering questions</p>
+            <p class="text-sm">
+              <span>9:45:34 AM</span> / <span>00:00:55:516</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">assessment creation , reordering questions</h5>
+<span class='badge badge-success'>03.28.2023 9:45:34 AM</span>
+<span class='badge badge-danger'>03.28.2023 9:46:29 AM</span>
+<span class='badge badge-default'>00:00:55:516</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>verify assessment creation and questions setup functionality</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.LoginPageSD.launch_application_using_chrome_browser_and_valid_url(java.lang.String)">
+                <span>Given Launch Application using "chrome"Browser and valid URL "http://staging.x0pa.ai/app/roboroy"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoginPageSD.accept_xopaterms()">
+                <span>When accept xopaterms</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoginPageSD.choose_login_type()">
+                <span>And choose login type</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoginPageSD.enters_valid_credentials_and(java.lang.String,java.lang.String)">
+                <span>And enters valid credentials "paul@trainingqa.com" and "XPAStag0"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoginPageSD.verify_captcha_and_click_on_login_button()">
+                <span>And verify captcha and click on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.navigate_to_interview_menu()">
+                <span>And navigate to interview menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.navigate_to_x0pa_room()">
+                <span>And navigate to X0PA ROOM</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.click_on_create_new_assessment_button()">
+                <span>And click on create new assessment button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.enter_assessment_name(java.lang.String)">
+                <span>And enter assessment name "AssessmentTC51"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.enter_information_to_test_takers(java.lang.String)">
+                <span>And enter information to test takers "welcome to the Assessment !"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.keep_interview_type_fixed()">
+                <span>And keep interview type fixed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.enable_remainders()">
+                <span>And enable remainders</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.choose_remainder_interval_days_and_choose_maximum_remainders_times(java.lang.String,java.lang.String)">
+                <span>And choose remainder interval "4" days and choose maximum remainders "2" times</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.enable_toggle_which_allows_candidates_to_cut_copy_paste_for_essay_type_questions()">
+                <span>And enable toggle which allows candidates to cut copy paste for essay type questions</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.enable_toggle_which_allows_candidates_to_retake_the_assessment()">
+                <span>And enable toggle which allows candidates to retake the assessment</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.choose_assessment_start_date_and_time(java.lang.String)">
+                <span>And choose assessment start date and time "03/28/2023, 11:00 AM"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.enable_toggle_which_allows_candidates_to_see_responses_after_submission_of_assessment()">
+                <span>And enable toggle which allows candidates to see responses after submission of assessment</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.choose_assessment_end_date(java.lang.String)">
+                <span>And choose assessment end date "05/03/2023"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.enable_company_branding()">
+                <span>And enable company branding</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.enable_password_and_enter_password_which_allows_users_to_review_responses_securely(java.lang.String)">
+                <span>And enable password and enter password "XPAStag0" which allows users to review responses securely</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.click_on_change_banner_button_to_upload_assessment_banner(java.lang.String)">
+                <span>And click on change banner button to upload assessment banner "UploadFiles//xopabanner.png"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.disable_rating_criteria()">
+                <span>And disable rating criteria</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AssessmentCreationSD.click_on_submit_button()">
+                <span>And click on submit button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinitions.CandidateSD.search_for_assessment(java.lang.String)">
+                <span>And search for assessment "AssessmentTC51"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=111.0.5563.111)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ea850aa66571e1ef6d4e79abf834bcf0, clearElement {id=86ee948d-20a4-4e0d-a551-0c53a5b53caa}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\LOVELE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53278}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53278/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ea850aa66571e1ef6d4e79abf834bcf0)] -> xpath: (//input[@role='searchbox'])[1]]
+Session ID: ea850aa66571e1ef6d4e79abf834bcf0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy23.clear(Unknown Source)
+	at apputils.Reusable.sendKeys(Reusable.java:54)
+	at stepDefinitions.CandidateSD.search_for_assessment(CandidateSD.java:276)
+	at ✽.search for assessment "AssessmentTC51"(file:///C:/Users/Lovelesh%20Yadav/Downloads/SIT%20(2)/SIT/./SIT%20Features/SIT01-candidateassessment.feature:29)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.LoginPageSD.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>verify assessment creation and questions setup functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.click_on_assessment_to_navigate_to_assessment_setup_page()">
+                <span>And click on assessment to navigate to assessment setup page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.navigate_to_advanced_settings_tab()">
+                <span>And navigate to advanced settings tab</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.expand_essay_type_practice_question()">
+                <span>And expand essay type practice question</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.enter_instructions_to_candidates_regarding_essay_type_question(java.lang.String)">
+                <span>And enter instructions to candidates regarding essay type question "Bad punctuation, sentence structure, and poor grammar might lower an otherwise good grade on an essay question."</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.enter_question(java.lang.String)">
+                <span>And enter question "what is software ?"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.select_preparation_time_to_answer_the_question_minute_seconds(java.lang.String,java.lang.String)">
+                <span>And select preparation time to answer the question "1" minute "30" seconds</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.select_maximum_time_to_answer_question_minute_seconds(java.lang.String,java.lang.String)">
+                <span>And select maximum time to answer question "1" minute "30" seconds</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.choose_minimum_words_and_maximum_words_required_to_answer_the_question(java.lang.String,java.lang.String)">
+                <span>And choose minimum words "10" and maximum words "15" required to answer the question</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.collapse_essay_type_practice_question()">
+                <span>And collapse essay type practice question</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.select_multiple_choice_question_which_will_be_displayed_as_practice_question_to_candidates()">
+                <span>And select multiple choice question which will be displayed as practice question to candidates</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.drag_this_mcq_practice_question_to_the_place_of_first_practice_question()">
+                <span>And drag this mcq practice question to the place of first practice question</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.verify_the_practice_question_being_reordered_or_not(java.lang.String)">
+                <span>Then verify the practice question "MULTIPLE CHOICE QUESTION (MCQ)" being reordered or not</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.expand_essay_type_practice_question()">
+                <span>And expand essay type practice question</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.enter_instructions_to_candidates_regarding_mcq_type_question(java.lang.String)">
+                <span>And enter instructions to candidates regarding mcq type question "choose the correct answer"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.enter_mcq_question(java.lang.String)">
+                <span>And enter mcq question "what is Java ?"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.select_preparation_time_to_answer_the_question_minute_seconds(java.lang.String,java.lang.String)">
+                <span>And select preparation time to answer the question "1" minute "30" seconds</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.select_maximum_time_to_answer_question_minute_seconds(java.lang.String,java.lang.String)">
+                <span>And select maximum time to answer question "1" minute "30" seconds</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.create_options_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)">
+                <span>And create options "German Language" "Basic Language" "pragramming Language" and  "all of the above"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.collapse_essay_type_practice_question()">
+                <span>And collapse essay type practice question</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.select_vedio_type_question_which_will_be_displayed_as_practice_question_to_candidates()">
+                <span>And select vedio type question which will be displayed as practice question to candidates</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.drag_this_vedio_type_practice_question_to_the_place_of_first_practice_question()">
+                <span>When drag this vedio type practice question to the place of first practice question</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.verify_the_practice_question_being_reordered_or_not(java.lang.String)">
+                <span>Then verify the practice question "VIDEO" being reordered or not</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.expand_essay_type_practice_question()">
+                <span>And expand essay type practice question</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.enter_instructions_to_candidates_regarding_vedio_type_question(java.lang.String)">
+                <span>And enter instructions to candidates regarding vedio type question "video should be clear.please reatake vedio if it's not clear.Vedio answer will be rejected automatically if fake person attempts answers"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.enter_vedio_question(java.lang.String)">
+                <span>And enter vedio question "introduce yourself."</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.select_preparation_time_to_answer_the_question_minute_seconds(java.lang.String,java.lang.String)">
+                <span>And select preparation time to answer the question "1" minute "30" seconds</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.select_maximum_time_to_answer_question_minute_seconds(java.lang.String,java.lang.String)">
+                <span>And select maximum time to answer question "1" minute "30" seconds</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.choose_number_of_retakes_can_candidate_take(java.lang.String)">
+                <span>And choose number of retakes can candidate take "2"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.choose_retake_decision_time_minute_seconds(java.lang.String,java.lang.String)">
+                <span>And choose retake decision time "1" minute "30" seconds</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.collapse_essay_type_practice_question()">
+                <span>And collapse essay type practice question</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.disable_showing_number_of_retakes_left_to_the_candidate()">
+                <span>When disable showing number of retakes left to the candidate</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.disable_toggle_to_restrict_candidates_to_navigate_to_previous_questions()">
+                <span>When disable toggle to restrict candidates to navigate to previous questions</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.disable_save_as_draft_by_enabling_toggle()">
+                <span>And disable save as draft by enabling toggle</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.disable_assessment_summary_table()">
+                <span>When disable assessment summary table</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.enter_assessment_end_text(java.lang.String)">
+                <span>And enter assessment end text "Congratulations ! You've successfully completed the assessment , results will be announced soon . "</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AdvancedSettingsSD.click_on_save_button()">
+                <span>And click on save button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.CandidateAssessmentSD.navigate_to_assessment_setup_page()">
+                <span>When navigate to assessment setup page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.click_on_edit_button_to_edit_assessment_start_date()">
+                <span>And click on edit button to edit assessment start date</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.choose_date(java.lang.String)">
+                <span>And choose date "07/03/2023, 7:00 PM"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.RatingCriteriaSD.click_on_the_submit_button()">
+                <span>And click on the submit button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.click_on_edit_button_to_edit_assessment_end_date()">
+                <span>And click on edit button to edit assessment end date</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.choose_date(java.lang.String)">
+                <span>And choose date "14/04/2023, 07:00 PM"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.RatingCriteriaSD.click_on_the_submit_button()">
+                <span>And click on the submit button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.click_on_add_custom_question_button()">
+                <span>And click on add custom question button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.enter_the_question(java.lang.String)">
+                <span>And enter the question "what is manual testing ?"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.click_on_next_button()">
+                <span>And click on next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.choose_question_type_as_essay()">
+                <span>And choose question type as essay</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.enter_minimum_words_required_to_answer_this_question(java.lang.String)">
+                <span>And enter minimum words required to answer this question "5"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.enter_maximum_words_required_to_answer_this_question(java.lang.String)">
+                <span>And enter maximum words required to answer this question "15"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.click_on_next_button()">
+                <span>And click on next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.select_preparation_time_required_to_question_min_and_seconds(java.lang.String,java.lang.String)">
+                <span>And select preparation time required to question "1" min and "30" seconds</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.choose_maximum_time_to_answer_the_question_min_and_seconds(java.lang.String,java.lang.String)">
+                <span>And choose maximum time to answer the question "1" min and "10" seconds</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.click_on_next_button()">
+                <span>And click on next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.create_or_choose_a_category_this_question_belongs_to(java.lang.String)">
+                <span>And Create or choose a category "HR" this question belongs to</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.RatingCriteriaSD.click_on_the_submit_button()">
+                <span>And click on the submit button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.click_on_add_custom_question_button()">
+                <span>And click on add custom question button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.enter_the_question(java.lang.String)">
+                <span>And enter the question "what is Automation testing ?"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.click_on_next_button()">
+                <span>And click on next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.choose_question_type_as_vedio()">
+                <span>And choose question type as vedio</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.click_on_checkbox_which_will_allows_candidates_to_retake_vedio()">
+                <span>And click on checkbox which will allows candidates to retake vedio</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.enter_number_of_times_candidate_can_retake_vedio(java.lang.String)">
+                <span>And enter number of times candidate can retake vedio "3"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.click_on_checkbox_to_decide_how_much_time_candidates_can_take_between_retakes()">
+                <span>And click on checkbox to decide how much time candidates can take between retakes</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.select_retake_decision_time_minute_and_seconds(java.lang.String,java.lang.String)">
+                <span>And select retake decision time "1" minute and "30" seconds</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.click_on_next_button()">
+                <span>And click on next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.select_preparation_time_required_to_question_min_and_seconds(java.lang.String,java.lang.String)">
+                <span>And select preparation time required to question "1" min and "30" seconds</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.choose_maximum_time_to_answer_the_question_min_and_seconds(java.lang.String,java.lang.String)">
+                <span>And choose maximum time to answer the question "1" min and "10" seconds</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.click_on_next_button()">
+                <span>And click on next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.create_or_choose_a_category_this_question_belongs_to(java.lang.String)">
+                <span>And Create or choose a category "HR" this question belongs to</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.RatingCriteriaSD.click_on_the_submit_button()">
+                <span>And click on the submit button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.click_on_add_custom_question_button()">
+                <span>And click on add custom question button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.enter_the_question(java.lang.String)">
+                <span>And enter the question "who will do manual testing ?"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.click_on_next_button()">
+                <span>And click on next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.choose_question_type_multiple_choice()">
+                <span>And choose question type multiple choice</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.give_options_to_the_question_option_a_option_b_option_c_option_d(java.lang.String,java.lang.String,java.lang.String,java.lang.String)">
+                <span>And give options to the question option a "humans" option b "robots" option c "Manual Testers" option d "computers"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.pick_right_options_from_the_given_options_or(java.lang.String,java.lang.String)">
+                <span>And pick right options from the given options "humans" or "Manual Testers"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.pick_red_flag_options_from_the_given_options_or(java.lang.String,java.lang.String)">
+                <span>And pick red flag options from the given options "computers" or "robots"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.click_on_checkbox_which_takes_answer_as_correct_if_candidate_chooses_any_of_the_right_option()">
+                <span>And click on checkbox which takes answer as correct if candidate chooses any of the right option</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.click_on_checkbox_which_allows_candidates_to_choose_only_one_option()">
+                <span>And click on checkbox which allows candidates to choose only one option</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.click_on_next_button()">
+                <span>And click on next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.select_preparation_time_required_to_question_min_and_seconds(java.lang.String,java.lang.String)">
+                <span>And select preparation time required to question "1" min and "30" seconds</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.choose_maximum_time_to_answer_the_question_min_and_seconds(java.lang.String,java.lang.String)">
+                <span>And choose maximum time to answer the question "1" min and "10" seconds</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.give_score_to_the_question(java.lang.String)">
+                <span>And give score "5" to the question</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.click_on_next_button()">
+                <span>And click on next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.create_or_choose_a_category_this_question_belongs_to(java.lang.String)">
+                <span>And Create or choose a category "HR" this question belongs to</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.RatingCriteriaSD.click_on_the_submit_button()">
+                <span>And click on the submit button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.click_on_add_custom_question_button()">
+                <span>And click on add custom question button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.enter_the_question(java.lang.String)">
+                <span>And enter the question "selenium"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.click_on_next_button()">
+                <span>And click on next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.choose_question_type_rating()">
+                <span>And choose question type rating</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.rating_option_a_and_score_for_the_option(java.lang.String,java.lang.String)">
+                <span>And rating option a "Excellent" and score for the option "25"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.click_on_add_message_to_add_next_option_and_score()">
+                <span>And click on add message to add next option and score</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.rating_option_b_and_score_for_the_option(java.lang.String,java.lang.String)">
+                <span>And rating option b "Very Good" and score for the option "20"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.click_on_add_message_to_add_next_option_and_score()">
+                <span>And click on add message to add next option and score</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.rating_option_c_and_score_for_the_option(java.lang.String,java.lang.String)">
+                <span>And rating option c "Good" and score for the option "15"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.click_on_add_message_to_add_next_option_and_score()">
+                <span>And click on add message to add next option and score</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.rating_option_d_and_score_for_the_option(java.lang.String,java.lang.String)">
+                <span>And rating option d "Average" and score for the option "10"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.click_on_next_button()">
+                <span>And click on next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.select_preparation_time_required_to_question_min_and_seconds(java.lang.String,java.lang.String)">
+                <span>And select preparation time required to question "1" min and "30" seconds</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.choose_maximum_time_to_answer_the_question_min_and_seconds(java.lang.String,java.lang.String)">
+                <span>And choose maximum time to answer the question "1" min and "10" seconds</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.click_on_next_button()">
+                <span>And click on next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.QuestionBankSD.create_or_choose_a_category_this_question_belongs_to(java.lang.String)">
+                <span>And Create or choose a category "HR" this question belongs to</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.RatingCriteriaSD.click_on_the_submit_button()">
+                <span>And click on the submit button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.AssessmentCreationSD.close_the_browser()">
+                <span>And close the browser</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.ElementNotInteractableException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.ElementNotInteractableException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:46:25 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='49'>And search for assessment "AssessmentTC51"</a>
+<div class="">
+<span class="badge badge-default">assessment creation , reordering questions.verify assessment creation and questions setup functionality.And search for assessment "AssessmentTC51"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@addcand</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@addcand</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:45:34 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>verify assessment creation and questions setup functionality</a>
+<div class="">
+<span class="badge badge-default">assessment creation , reordering questions.verify assessment creation and questions setup functionality</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Mar 28, 2023 09:45:31 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Mar 28, 2023 09:46:30 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='100%'><b>1</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='18%'><b>24</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>1</b> steps failed,
+<b>103</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"assessment creation , reordering questions":55.516
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@addcand</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 1,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 24,
+failGrandChild: 1,
+warningGrandChild: 0,
+skipGrandChild: 103,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
